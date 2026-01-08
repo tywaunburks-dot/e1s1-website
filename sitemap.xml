@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://encourage1tosave1.org/</loc></url>
-  <url><loc>https://encourage1tosave1.org/about.html</loc></url>
-  <url><loc>https://encourage1tosave1.org/programs.html</loc></url>
-  <url><loc>https://encourage1tosave1.org/book.html</loc></url>
-  <url><loc>https://encourage1tosave1.org/donate.html</loc></url>
-  <url><loc>https://encourage1tosave1.org/contact.html</loc></url>
+  <url><loc>https://www.encourage1tosave1.org/</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/about.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/programs.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/book.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/intake.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/staff.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/donate.html</loc><lastmod>2026-01-08</lastmod></url>
+  <url><loc>https://www.encourage1tosave1.org/contact.html</loc><lastmod>2026-01-08</lastmod></url>
 </urlset>

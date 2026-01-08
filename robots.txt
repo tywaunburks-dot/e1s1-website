@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://encourage1tosave1.org/sitemap.xml
+Sitemap: https://www.encourage1tosave1.org/sitemap.xml
