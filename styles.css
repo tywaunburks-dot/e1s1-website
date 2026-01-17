@@ -42,7 +42,7 @@ img{max-width:100%;display:block}
   text-align:center;
 }
 .brand-center img{
-  width:92px;height:92px;object-fit:cover;border-radius:22px;
+  width:46px;height:46px;object-fit:cover;border-radius:12px;
   box-shadow: var(--shadow);
   border:1px solid rgba(255,255,255,.10);
 }
