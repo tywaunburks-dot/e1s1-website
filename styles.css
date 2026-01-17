@@ -42,13 +42,14 @@ img{max-width:100%;display:block}
   text-align:center;
 }
 .brand-center img{
-  width:36px;
-  height:36px;
+  width:18px;
+  height:18px;
   object-fit:cover;
-  border-radius:10px;
+  border-radius:6px;
   box-shadow: var(--shadow);
   border:1px solid rgba(255,255,255,.10);
 }
+
 
 .brand-center .title{
   font-weight:900;letter-spacing:.3px;
@@ -187,9 +188,12 @@ textarea.input{min-height:140px;resize:vertical}
 /* Responsive */
 @media (max-width: 900px){
   .brand-center img{
-    width:32px;
-    height:32px;
+    width:16px;
+    height:16px;
   }
+}
+
+
 }
 
   .hero-grid{grid-template-columns:1fr}
@@ -214,13 +218,14 @@ textarea.input{min-height:140px;resize:vertical}
   .nav-links a{width:100%}
 
   .brand-center img{
-  width:36px;
-  height:36px;
+  width:18px;
+  height:18px;
   object-fit:cover;
-  border-radius:10px;
+  border-radius:6px;
   box-shadow: var(--shadow);
   border:1px solid rgba(255,255,255,.10);
 }
+
 
 }
 
