@@ -42,10 +42,14 @@ img{max-width:100%;display:block}
   text-align:center;
 }
 .brand-center img{
-    width:56px;height:56px;border-radius:14px;
+  width:36px;
+  height:36px;
+  object-fit:cover;
+  border-radius:10px;
   box-shadow: var(--shadow);
   border:1px solid rgba(255,255,255,.10);
 }
+
 .brand-center .title{
   font-weight:900;letter-spacing:.3px;
   font-size:18px;line-height:1.2;
@@ -182,7 +186,12 @@ textarea.input{min-height:140px;resize:vertical}
 
 /* Responsive */
 @media (max-width: 900px){
-  h1{font-size:36px}
+  .brand-center img{
+    width:32px;
+    height:32px;
+  }
+}
+
   .hero-grid{grid-template-columns:1fr}
   .grid-3{grid-template-columns:1fr}
   .two-col{grid-template-columns:1fr}
@@ -205,8 +214,13 @@ textarea.input{min-height:140px;resize:vertical}
   .nav-links a{width:100%}
 
   .brand-center img{
-    width:46px;
-    height:46px;
-  }
+  width:36px;
+  height:36px;
+  object-fit:cover;
+  border-radius:10px;
+  box-shadow: var(--shadow);
+  border:1px solid rgba(255,255,255,.10);
+}
+
 }
 
