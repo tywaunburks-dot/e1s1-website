@@ -296,26 +296,28 @@ textarea.input{min-height:140px;resize:vertical}
     object-fit: contain !important;
   }
 }
-/* E1S1 LOGO - FINAL SIZE */
+/* =========================================
+   E1S1 HEADER LOGO — CORRECTED SIZE
+   ========================================= */
 
-.brand-center img,
 .logo-img,
+.brand-center img,
 header img[alt="E1S1 logo"] {
-  width: 120px !important;
-  height: 120px !important;
-  max-width: 120px !important;
-  min-width: 120px !important;
-  object-fit: contain !important;
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 150px !important;
+    min-width: 150px !important;
+    object-fit: contain !important;
 }
 
 /* Mobile */
-@media (max-width: 900px) {
-  .brand-center img,
-  .logo-img,
-  header img[alt="E1S1 logo"] {
-    width: 100px !important;
-    height: 100px !important;
-    max-width: 100px !important;
-    min-width: 100px !important;
-  }
+@media screen and (max-width: 900px) {
+    .logo-img,
+    .brand-center img,
+    header img[alt="E1S1 logo"] {
+        width: 130px !important;
+        height: 130px !important;
+        max-width: 130px !important;
+        min-width: 130px !important;
+    }
 }
