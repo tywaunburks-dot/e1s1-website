@@ -339,3 +339,18 @@ header img,
         height: auto !important;
     }
 }
+/* CENTER E1S1 LOGO */
+
+header,
+.site-header,
+.brand-center {
+    text-align: center !important;
+}
+
+.logo-img,
+.brand-center img,
+header img[alt="E1S1 logo"] {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
