@@ -296,15 +296,15 @@ textarea.input{min-height:140px;resize:vertical}
     object-fit: contain !important;
   }
 }
-/* FINAL E1S1 LOGO SIZE - BALANCED */
+/* E1S1 LOGO - FINAL SIZE */
 
 .brand-center img,
 .logo-img,
 header img[alt="E1S1 logo"] {
-  width: 80px !important;
-  height: 80px !important;
-  max-width: 80px !important;
-  min-width: 80px !important;
+  width: 120px !important;
+  height: 120px !important;
+  max-width: 120px !important;
+  min-width: 120px !important;
   object-fit: contain !important;
 }
 
@@ -313,9 +313,9 @@ header img[alt="E1S1 logo"] {
   .brand-center img,
   .logo-img,
   header img[alt="E1S1 logo"] {
-    width: 64px !important;
-    height: 64px !important;
-    max-width: 64px !important;
-    min-width: 64px !important;
+    width: 100px !important;
+    height: 100px !important;
+    max-width: 100px !important;
+    min-width: 100px !important;
   }
 }
