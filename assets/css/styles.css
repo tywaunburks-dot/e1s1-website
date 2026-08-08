@@ -296,28 +296,46 @@ textarea.input{min-height:140px;resize:vertical}
     object-fit: contain !important;
   }
 }
-/* =========================================
-   E1S1 HEADER LOGO — CORRECTED SIZE
-   ========================================= */
+/* =====================================================
+   E1S1 LOGO SIZE - FINAL OVERRIDE
+   ===================================================== */
 
-.logo-img,
-.brand-center img,
-header img[alt="E1S1 logo"] {
-    width: 150px !important;
-    height: 150px !important;
-    max-width: 150px !important;
-    min-width: 150px !important;
+/* Main website logo */
+.site-logo,
+.logo,
+.brand-logo,
+header img,
+.site-header img {
+    width: 375px !important;
+    max-width: 85vw !important;
+    height: auto !important;
+    max-height: none !important;
     object-fit: contain !important;
 }
 
 /* Mobile */
-@media screen and (max-width: 900px) {
-    .logo-img,
-    .brand-center img,
-    header img[alt="E1S1 logo"] {
-        width: 130px !important;
-        height: 130px !important;
-        max-width: 130px !important;
-        min-width: 130px !important;
+@media (max-width: 768px) {
+    .site-logo,
+    .logo,
+    .brand-logo,
+    header img,
+    .site-header img {
+        width: 340px !important;
+        max-width: 85vw !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+}
+
+/* Small phones */
+@media (max-width: 430px) {
+    .site-logo,
+    .logo,
+    .brand-logo,
+    header img,
+    .site-header img {
+        width: 300px !important;
+        max-width: 82vw !important;
+        height: auto !important;
     }
 }
